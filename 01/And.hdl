@@ -16,6 +16,6 @@ CHIP And {
     PARTS:
     // Put your code here:
 
-    Nand (a = a, b = b, out = nandAB);
-    Not (in = nandAB, out = out);
+    Nand(a = a, b = b, out = Nandab);
+    Not (in = Nandab, out = out);
 }
